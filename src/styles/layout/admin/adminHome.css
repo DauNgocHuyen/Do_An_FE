@@ -1,0 +1,133 @@
+#admin-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+#admin-container .t-active {
+    background-color: rgb(255, 225, 230);
+    color: rgb(233, 69, 96);
+}
+
+/* Navbar */
+.admin-nav {
+    height: fit-content;
+    background-color: #fff;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 26px;
+    border-radius: 8px;
+}
+
+.manager-category {
+    color: rgb(125, 135, 156);
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+}
+
+.manager-product {
+    color: rgb(125, 135, 156);
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+}
+
+.manager-order {
+    color: rgb(125, 135, 156);
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+}
+
+.manager-statistics {
+    color: rgb(125, 135, 156);
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+}
+
+.manager-category:hover,
+.manager-product:hover,
+.manager-order:hover,
+.manager-statistics:hover {
+    background-color: rgb(233, 69, 96);
+    color: #fff;
+}
+
+
+
+/* Context view */
+.admin-context-view {
+    width: 75%;
+    margin-left: 24px;
+}
+
+/* Popup add new category */
+#the-add-category {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(48, 45, 45, 0.3);
+}
+
+#add-category-container {
+    position: relative;
+    padding: 12px;
+}
+
+.btn-add-category {
+    color: #fff;
+    background-color: rgb(233, 69, 96);
+}
+
+.btn-add-category:hover {
+    background-color: rgb(230, 95, 118);
+}
+
+.add-category-title {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3e3d3d;
+}
+
+.exit-add-category {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    font-size: 18px;
+    padding: 8px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.exit-add-category:hover {
+    color: #9a9999;
+}
+
+

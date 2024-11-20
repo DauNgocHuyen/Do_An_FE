@@ -1,0 +1,210 @@
+#the-body {
+    padding-top: 116px;
+}
+
+#the-body .t-w-80 {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#the-body .t-active {
+    background-color: rgb(255, 225, 230);
+    color: rgb(233, 69, 96);
+}
+
+#the-body .t-flex {
+    display: flex;
+}
+
+#the-body .t-justify-between {
+    justify-content: space-between;
+}
+
+/* Top */
+#the-body #body-top {
+    background-color: #fff;
+    padding-bottom: 56px;
+}
+
+#the-body .body-top-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Center */
+#body-center {
+    background-color: rgb(246, 249, 252);
+    margin-top: 40px;
+    position: relative;
+}
+
+#body-center .center-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#body-center .flash-deal-title {
+    padding-top: 20px;
+}
+
+#body-center .center-title svg {
+    margin-right: 8px;
+}
+
+#body-center .slick-prev, 
+#body-center .slick-next {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgb(15, 52, 96);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#body-center .slick-dots {
+    display: none !important;
+}
+
+/* Flash deal */
+#body-center .flash-deal .slick-list {
+    padding-left: 12px;
+}
+
+/* Top categories */
+#body-center #base-top-category {
+    width: unset !important;
+}
+
+#body-center .top-category .slick-list {
+    padding-left: 16px;
+}
+
+/* Top ratings */
+#body-center .top-rating .fa-medal {
+    color: #f9b910;
+}
+
+#body-center .top-rating .rating-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body-center .top-rating .rating-left {
+    display: flex;
+    box-shadow: rgb(3 0 71 / 9%) 0px 8px 45px;
+    border-radius: 8px;
+}
+
+#body-center .top-rating .rating-left #base-mini-card .product-img {
+    height: unset;
+}
+
+.top-rating .rating-right {
+    display: flex;
+    box-shadow: rgb(3 0 71 / 9%) 0px 8px 45px;
+    padding: 16px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.top-rating .rating-right .rating-right-item {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.top-rating .rating-right .rating-right-item:first-child {
+    margin-right: 18px;
+}
+
+.rating-right-item-name {
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+/* New Arrivals */
+.new-arrivals-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
+}
+
+.new-arrivals-content #base-mini-card {
+    width: 198.66px;
+    height: 252.66px;
+}
+
+.new-arrivals-content #base-mini-card .product-img {
+    border-radius: 8px;
+    padding: 16px 16px 0 16px;
+}
+
+/* Show all product */
+#the-body #show-products {
+    width: 80%;
+    margin: 80px auto 0;
+    display: flex;
+}
+
+/* product-category */
+#the-body #product-category {
+    width: 25%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 3px 5px -1px, rgba(0, 0, 0, 0.043) 0px 5px 8px 0px, rgba(0, 0, 0, 0.035) 0px 1px 14px 0px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+#the-body #product-category #base-category-card {
+    width: 266px;
+    padding: 0.35rem 0;
+    margin: 1rem 0.1rem;
+    background-color: rgb(246, 249, 252);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#the-body #product-category #base-category-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 26px;
+}
+
+#the-body #product-category #base-category-card #category-card-container:hover {
+    background-color: unset;
+    color: unset;
+}
+
+/* List product */
+
+#the-body #list-product {
+    margin-left: 2%;
+    width: 100%;
+}
+
+/* Search product */
+#the-body #search-product {
+    width: 266px;
+    height: 40px;
+    padding: 0.35rem 8px;
+    margin: 1rem 0.1rem;
+    border-radius: 8px;
+    border: 1px solid #dfdede;
+    background-color: rgb(246, 249, 252);
+}
+
+#the-body #search-product:focus {
+    border: 1px solid rgb(233, 69, 96);
+    background-color: #fff;
+    outline: none;
+}
+
+.rating-content #base-mini-card .card {
+    pointer-events: none;
+}
+
