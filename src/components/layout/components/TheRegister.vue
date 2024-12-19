@@ -18,7 +18,7 @@
                             <label for="#">Fisrt Name <span style="color: #4a4d51;">*</span></label>
                             <base-input
                                 class="firstname-register"
-                                :inputPlaceholder="'Nguyen'"
+                                :inputPlaceholder="'Dau'"
                                 :inputType="'text'"
                                 :required="true"
                             >
